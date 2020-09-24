@@ -8,8 +8,14 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width:800,
         height:600,
+        icon: 'src/favicon.ico',
         show: false
     });
+    mainWindow.setMenuBarVisibility(false)
+    mainWindow.on('page-title-updated', function(e) {
+        e.preventDefault()
+    });
+    mainWindow.setTitle('GS Panel')
     const startURL = isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`;
 
     mainWindow.loadURL(startURL);
