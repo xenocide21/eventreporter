@@ -17,7 +17,7 @@ None use <$npm run server> to start server
 | POST    | api/auth/register | register as a new user                    |
 | POST    | api/auth/login    | login as an existing user                 |
 
-# Lifehack endpoints
+# Event Report endpoints
 
 | Request | URL                         | Description                               |
 | ------- | --------------------------- | ----------------------------------------- |

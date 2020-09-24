@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6239528f-64f1-4963-9d2c-0a127015a2b3" name="Default Changelist" comment="updated routing, added components, currently working on rendering seed data from database">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6239528f-64f1-4963-9d2c-0a127015a2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,7 @@
       <updated>1600019874148</updated>
       <workItem from="1600019877078" duration="6233000" />
       <workItem from="1600833279969" duration="604000" />
-      <workItem from="1600834015102" duration="41222000" />
+      <workItem from="1600834015102" duration="41501000" />
     </task>
     <task id="LOCAL-00001" summary="Initial base project">
       <created>1600834207521</created>
@@ -145,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600919157899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated routing, added components, currently working on rendering seed data from database">
+      <created>1600919665823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600919665823</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updates to server readme and application readme">
+      <created>1600919790985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600919790985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,13 +167,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial base project" />
     <MESSAGE value="updated routing, added components, currently working on rendering seed data from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated routing, added components, currently working on rendering seed data from database" />
+    <MESSAGE value="updates to server readme and application readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates to server readme and application readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="918" y="33" key="CommitChangelistDialog2" timestamp="1600919664701">
+    <state x="883" y="187" key="#Notifications" timestamp="1600919866222">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="918" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919664701" />
+    <state x="883" y="187" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1600919866222" />
+    <state x="918" y="33" key="CommitChangelistDialog2" timestamp="1600919789941">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="918" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919789941" />
     <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1600919057431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -190,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600886001286" />
-    <state x="883" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600919679670">
+    <state x="883" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600919873814">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="883" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919679670" />
+    <state x="883" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919873814" />
     <state x="1179" y="177" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1600919180148">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
