@@ -6,7 +6,11 @@ GS Panel API
 
 # Base URL for Deployed API
 
-None use <$npm run server> to start server
+None use 
+
+###`npm run server` 
+
+to start server
 
 # Endpoints
 
