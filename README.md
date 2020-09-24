@@ -19,12 +19,14 @@ None use <$npm run server> to start server
 
 # Event Report endpoints
 
-| Request | URL                         | Description                               |
-| ------- | --------------------------- | ----------------------------------------- |
+| Request | URL                         | Description                                   |
+| ------- | --------------------------- | --------------------------------------------- |
 | GET     | api/eventreport             | get all event reports (needs to be logged in) |
-| POST    | api/eventreport             | post new event report (requires auth)        |
+| POST    | api/eventreport             | post new event report (requires auth)         |
 | GET     | api/eventreport/:id         | get specific event report                     |
-| GET     | api/eventreport/:id/ratings | get all ratings for event report              |
+| GET     | api/eventreport/:id/details | get all details for event report              |
+| GET     | api/eventreport/:id/rewards | get all rewards for event report              |
+| GET     | api/eventreport/:id/winners | get all winners for event report              |
 | PUT     | api/eventreport/:id         | edit specific event report                    |
 | DELETE  | api/eventreport/:id         | delete specific event report                  |
 
