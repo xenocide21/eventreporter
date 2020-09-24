@@ -1,75 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6239528f-64f1-4963-9d2c-0a127015a2b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/authentication/auth-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/authentication/auth-mw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/authentication/auth-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-details/details-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-details/details-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-rewards/rewards-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-rewards/rewards-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-winners/winners-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/event-reports/event-winners/winners-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/dbConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/gsPanel.db3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/20200922214714_users_table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/20200922215552_events_table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/00-cleanup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/01-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/02-event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/03-event_details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/04-event_rewards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/05-event_winners.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/gsPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/account/registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/addEventList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventCardList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventDetailsCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventDetailsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventRewardsCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventRewardsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventWinnersCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/eventWinnersList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/event-report/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/navigation/LoggedInNav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/navigation/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/components/navigation/navigation.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/utils/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-reporter/src/utils/axiosWithAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gsPanel/welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knexfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6239528f-64f1-4963-9d2c-0a127015a2b3" name="Default Changelist" comment="updated routing, added components, currently working on rendering seed data from database">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/.env" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/Electron/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/Electron/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/event-reporter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-reporter/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-reporter/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +122,7 @@
       <updated>1600019874148</updated>
       <workItem from="1600019877078" duration="6233000" />
       <workItem from="1600833279969" duration="604000" />
-      <workItem from="1600834015102" duration="40713000" />
+      <workItem from="1600834015102" duration="41222000" />
     </task>
     <task id="LOCAL-00001" summary="Initial base project">
       <created>1600834207521</created>
@@ -203,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600834252208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated routing, added components, currently working on rendering seed data from database">
+      <created>1600919157899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600919157899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,13 +154,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial base project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial base project" />
+    <MESSAGE value="updated routing, added components, currently working on rendering seed data from database" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated routing, added components, currently working on rendering seed data from database" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1063" y="33" key="CommitChangelistDialog2" timestamp="1600834250889">
+    <state x="918" y="33" key="CommitChangelistDialog2" timestamp="1600919237542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1063" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600834250889" />
+    <state x="918" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919237542" />
     <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1600919057431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -247,9 +190,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600886001286" />
-    <state x="883" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600919119830">
+    <state x="883" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600919249200">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="883" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919119830" />
+    <state x="883" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600919249200" />
+    <state x="1179" y="177" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1600919180148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1179" y="177" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600919180148" />
+    <state x="1056" y="159" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600919218871">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1056" y="159" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600919218871" />
   </component>
 </project>
